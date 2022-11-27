@@ -1,5 +1,5 @@
 # Patty Burgers Store Landing Page
-### [Live Site](https://patty.tk)
+### [Live Site](https://patty.gq)
 
 ![Patty Landing Page](https://i.ibb.co/2ZHyjk0/patty.png)
 
