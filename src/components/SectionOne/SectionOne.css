@@ -1,0 +1,93 @@
+.section {
+    width: 100%;
+    color: lightcyan;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: url(/public/images/art1.png) no-repeat;
+    background-position: 0 100%;
+    background-size: 300px;
+    margin-top: 5em;
+  }
+  
+  .section .hamberger-image {
+    position: relative;
+  }
+  
+  .section .hamberger-image::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(230deg, darkolivegreen 0%, yellow 100%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .section .hamberger-image img {
+    width: 500px;
+    animation: hamberger 2s linear .5s infinite alternate;
+    z-index: 1;
+  }
+  
+  .section .section-one-bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 80px;
+    z-index: 2;
+  }
+  
+  .section .section-one-bio h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: lime;
+  }
+  
+  .section .section-one-bio p {
+    font-size: 16px;
+    color: lavender;
+    transform: translateY(-10px);
+    text-align: justify;
+    z-index: 1;
+  }
+  
+  .section .section-one-bio .btn {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, seagreen 50%, rgba(255, 255, 255, 0.08) 50%);
+    background-size: 200%;
+    color: lemonchiffon;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  
+  .section .section-one-bio .btn:hover {
+    color: skyblue;
+    border: 2px solid plum;
+    background-position: -100%;
+  }
+  
+  @keyframes hamberger {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(20px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }

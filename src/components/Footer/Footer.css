@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .footer .btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .footer .btn-box .btn {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to top right, olive 10%, slateblue 50%, rgba(255, 255, 255, 0.08) 50%);
+    background-size: 200%;
+    color: lightgrey;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+  
+  .footer .btn-box .btn:hover {
+    color: powderblue;
+    border: 2px solid lawngreen;
+    background-position: -100%;
+  }
+  
+  .footer .author {
+    font-family: 'PT Serif', serif;
+    font-size: 1rem;
+    color: aqua;
+    margin-top: 1.5rem;
+  }
+  
