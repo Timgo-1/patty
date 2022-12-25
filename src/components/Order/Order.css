@@ -63,8 +63,9 @@
     width: 95%;
     height: 400px;
     border-radius: 5px;
-    object-fit: cover;
-    object-position: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
   
   .input-order {
